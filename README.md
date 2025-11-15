@@ -1,20 +1,26 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Party Starter: The Drinking Game
 
-# Run and deploy your AI Studio app
+A fun and simple party drinking game to get the fun started. Features a variety of challenges, questions, and dares, all in Czech!
 
-This contains everything you need to run your app locally.
+This project was built with React, TypeScript, and Tailwind CSS.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1Pc8FQaemRN3qRHkkNxZJnXeOukm_Pl7b
+## How to Deploy to GitHub Pages
 
-## Run Locally
+You can host this game for free on GitHub Pages.
 
-**Prerequisites:**  Node.js
+1.  **Create a GitHub Repository:**
+    *   Create a new **public** repository on your GitHub account.
 
+2.  **Upload the Files:**
+    *   Upload all the files from this project (`index.html`, `index.tsx`, `README.md`, the `components`, `services`, and `types` folders, etc.) to your new repository.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+3.  **Enable GitHub Pages:**
+    *   In your repository, go to **Settings** > **Pages**.
+    *   Under "Build and deployment", for the **Source**, select **Deploy from a branch**.
+    *   For the **Branch**, select `main` (or your default branch) and `/ (root)` for the folder.
+    *   Click **Save**.
+
+4.  **Wait and Play!**
+    *   GitHub will take a minute or two to build and deploy your site.
+    *   Once it's ready, the URL for your game will be displayed at the top of the GitHub Pages settings page. It will look something like this: `https://<your-username>.github.io/<your-repository-name>/`.
+    *   Share the link and enjoy the party!
